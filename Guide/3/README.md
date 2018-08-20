@@ -4,7 +4,7 @@ This is Part 3 to the full demonstration of a sample deployment to a raspberry p
 
 At this point, you should have set up your AKS cluster, and your raspberry pi should be connected to our IoT Hub.
 
-## Step 1: Deploying to the Raspberry Pi
+## Deploying to the Raspberry Pi
 
 First, test to make sure the connector is still running, by typing into the Azure Portal command line
 
