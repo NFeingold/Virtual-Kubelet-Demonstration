@@ -6,7 +6,7 @@ I suggest you follow along with my [YouTube Video](https://www.youtube.com/watch
 
 Though this video is a little outdated, the process remains the same.
 
-#### If you want to automate this process...
+### If you want to automate this process...
 
 I have also created an AutoHotKey Script that will prompt you for variable names, then type everything for you. It is available [Here](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/tree/master/HotKeys)
 
