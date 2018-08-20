@@ -12,7 +12,7 @@ First, test to make sure the connector is still running, by typing into the Azur
 kubectl get nodes
 kubectl get pods
 ```
-If its not running, such as it has a CrashLoopBackOff error, refer to folder 4.
+If its not running, such as it has a CrashLoopBackOff error, refer to folder 5.
 
 If they are running, we will now prepare to deploy our simulated temperature sensor
 
