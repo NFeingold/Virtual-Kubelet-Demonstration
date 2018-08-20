@@ -8,7 +8,7 @@ Though this video is a little outdated, the process remains the same.
 
 ### If you want to automate this process...
 
-I have also created an AutoHotKey Script that will prompt you for variable names, then type everything for you. It is available [Here](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/tree/master/HotKeys)
+I have also created an [AutoHotKey Script](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/tree/master/HotKeys) that will prompt you for variable names, then type everything for you.
 
 I have also created a Shell Script, which I will soon publish as an alternative to the AutoHotKey script. It is currently untested.
 
