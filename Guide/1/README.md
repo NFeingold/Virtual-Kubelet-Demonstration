@@ -33,7 +33,7 @@ az aks create -n <aks cluster name> -g <resource group> -c <node count, 1> --gen
 ```
 I recomend making the node count as 1, and to make the AKS cluster name something unique. While the name isn't required to be unique, I have come across a glitch several times when naming an AKS cluster a repeat name that will require a complete deletion of your Azure storage.
 
-The AKS cluster can take a very long time to set up- sometimes above 30 minutes. Be patient. You may want to add ```sh --no-wait ``` to the end of the previous command (```az aks create```), so you can interact with the command line while the aks cluster is being created.
+The AKS cluster can take a very long time to set up- sometimes above 30 minutes. Be patient. You may want to add ```--no-wait ``` to the end of the previous command (```az aks create```), so you can interact with the command line while the aks cluster is being created.
 
 ## Create an IoT Hub
 
@@ -48,7 +48,7 @@ Once again, I suggest you use eastus as the location.
 
 ## Connect to the AKS Cluster
 ```sh
-az aks get-credentials -n <aks cluster new> -g <resource group>
+az aks get-credentials -n <aks cluster name> -g <resource group>
 ```
 
 ## Generate Secrets 
@@ -69,7 +69,7 @@ helm init --service-account tiller
 cd iot-edge-virtual-kubelet-provider/src/charts/iot-edge-connector/
 helm install -n hub0 --set rbac.install=true .
 ```
-*if you are using the automation and you get the error "cannot find ready tiller pod," wait 10 or so seconds, then run the* ```sh helm install``` *command again, until it works*
+*if you are using the automation and you get the error "cannot find ready tiller pod," wait 10 or so seconds, then run the* ```helm install -n hub0 --set rbac.install=true .``` *command again, until it works*
 ## Check the results
 ```sh
 kubectl get nodes
