@@ -5,3 +5,75 @@ This is Part 1 to the full demonstration of a sample deployment to a raspberry p
 I suggest you follow along with my [YouTube Video](https://www.youtube.com/watch?v=XbkLWmjww8I) and work in the [Azure Portal](https://portal.azure.com) <br/>
 
 Though this video is a little outdated, the process remains the same.
+
+#### If you want to automate this process...
+
+I have also created an AutoHotKey Script that will prompt you for variable names, then type everything for you. It is available [Here](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/tree/master/HotKeys)
+
+I have also created a Shell Script, which I will soon publish as an alternative to the AutoHotKey script. It is currently untested.
+
+## Clone the Virtual Kubelet Provider for IoT Edge
+
+```sh
+git clone https://github.com/Azure/iot-edge-virtual-kubelet-provider.git
+```
+
+## Create a Resource Group
+
+```sh
+az group create -n <resource group> -l <location>
+```
+
+I would recommend using eastus as the location, as this is what is native for the AKS cluster.
+
+## Create an AKS Cluster
+
+```sh
+az aks create -n <aks cluster name> -g <resource group> -c <node count, 1> --generate-ssh-keys
+```
+I recomend making the node count as 1, and to make the AKS cluster name something unique. While the name isn't required to be unique, I have come across a glitch several times when naming an AKS cluster a repeat name that will require a complete deletion of your Azure storage.
+
+The AKS cluster can take a very long time to set up- sometimes above 30 minutes. Be patient. You may want to add ```sh --no-wait ``` to the end of the previous command (```az aks create```), so you can interact with the command line while the aks cluster is being created.
+
+## Create an IoT Hub
+
+I prefer navigating through the Azure interface when creating my IoT hub, as (for me) it has been more reliable. This can be done by navigating to the IoT Hub menu (which can be found by searching IoT Hub in the search bar in the top right), clicking '+ Add' in the top left, and creating a new hub with an *existing resource group*, being the one you had just created. 
+
+Alternatively, in the command line you can enter:
+
+```sh
+az iot hub create -n <iot hub name> -g <resource group> -l <location> --sku <s1>
+```
+Once again, I suggest you use eastus as the location.
+
+## Connect to the AKS Cluster
+```sh
+az aks get-credentials -n <aks cluster new> -g <resource group>
+```
+
+## Generate Secrets 
+
+You can find the iot-hub-owner-connection string by first navigating to the IoT Hub you created. From there, in the bar on the left, scroll down to the 'Shared Access Policies' under the settings tab. Now click on the iothubowner bar, which should pop up a window on the right. Near the bottom you will see the primary connection string (the third one down). You can copy it by clicking the blue button to the right of the string.
+```sh
+kubectl create secret generic my-secrets --from-literal=hub0-cs='<iot-hub-owner-connection-string>'
+```
+
+## Download the Virtual Kubelet Provider through Helm
+```sh
+kubectl --namespace kube-system create serviceaccount tiller
+kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+helm init --service-account tiller
+```
+<br/> *wait a second so the tiller has time to initiate* <br/>
+```sh
+cd iot-edge-virtual-kubelet-provider/src/charts/iot-edge-connector/
+helm install -n hub0 --set rbac.install=true .
+```
+*if you are using the automation and you get the error "cannot find ready tiller pod," wait 10 or so seconds, then run the* ```sh helm install``` *command again, until it works*
+## Check the results
+```sh
+kubectl get nodes
+kubectl get pods
+```
+
+If succesful, you should see the IoT Hub Virtual Kubelet Connector in both nodes and pods.
