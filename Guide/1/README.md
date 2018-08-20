@@ -14,11 +14,6 @@ I have also created a Shell Script, which I will soon publish as an alternative 
 
 ## Part 1: Creating an AKS Cluster and IoT Hub
 
-### Clone the Virtual Kubelet Provider for IoT Edge
-
-```sh
-git clone https://github.com/Azure/iot-edge-virtual-kubelet-provider.git
-```
 
 ### Create a Resource Group
 
@@ -53,6 +48,12 @@ Once again, I suggest you use eastus as the location.
 az aks get-credentials -n <aks cluster name> -g <resource group>
 ```
 ## Part 2: Implementing the Virtual Kubelet
+
+### Clone the Virtual Kubelet Provider for IoT Edge
+
+```sh
+git clone https://github.com/Azure/iot-edge-virtual-kubelet-provider.git
+```
 
 ### Generate Secrets 
 
