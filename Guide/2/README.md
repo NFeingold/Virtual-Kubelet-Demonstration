@@ -2,7 +2,7 @@
 
 This is Part 2 to the full demonstratin of connecting to a raspberry pi using Virtual Kubelet and IoT Edge. For Part 1, navigate [Here](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/tree/master/Guide/1)
 
-## Part 1: Setting up the Raspberry Pi 
+## Setting up the Raspberry Pi 
 
 Follow [this tutorial](https://blog.jongallant.com/2017/11/raspberrypi-setup/) on setting up a raspberry pi. It is a somewhat lengthy process, however you only ever have to do it once. It teaches you how to install the operating system, prepare things for this example, set up SSH, and a remote desktop which are __extremely helpful__. It is succinct and the best tutorial I have found. It suggests numerous peripherals, however, many are unnecessary. You only need what I previously mentioned.
 
