@@ -54,7 +54,7 @@ In the deployment file, which we can edit in vim using the method showed earlier
 
 First, selet the device(s) you want to give the tag, and add a tag to them. Continuing from there, you can edit the deployment file to have targetcondition value be the tag you created. Then just use the same ```kubectl apply -f <file>``` and deploy out to the specified devices. 
 
-### 
+##
 
 We can also take advantage of device twins, device health monitoring, and much more that is standard in the IoT Hub Servies.
   
