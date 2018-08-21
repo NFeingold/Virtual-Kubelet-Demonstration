@@ -10,7 +10,7 @@ I will be borrowing content from my other [Github Pages](https://github.com/NFei
 
 ## Requirements
 
- [Azure Subscription](https://portal.azure.com) <br/><br/>
+ [Azure Subscription](https://portal.azure.com) <br/>
  [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
   - Power Cable (5v micro USB- This will likely come with the Pi)
   - 16+ GB MicroSD Card (And a computer to flash [Raspbian](https://www.raspberrypi.org/downloads/raspbian/))
