@@ -1,10 +1,10 @@
 # Virtual-Kubelet-Demonstration
 
-A follow along demonstration of using Virtual Kubelet for IoT Edge Deployments
+A follow-along demonstration of using Virtual Kubelet for IoT Edge Deployments
 
 We will be sending out a simulated temperature sensor deployment onto a raspberry pi
 
-This is a semi-comprehensive, beginner-level demonstration of setting up Virtual Kubelet for Edge Deployments.
+This is a semi-comprehensive, beginner-level set up of Virtual Kubelet for Edge Deployments.
 I will be borrowing content from my other [Github Pages](https://github.com/NFeingold), and referencing many outside documents that I will source.
 
 
@@ -14,7 +14,6 @@ I will be borrowing content from my other [Github Pages](https://github.com/NFei
  [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
   - Power Cable (5v micro USB- This will likely come with the Pi)
   - 16+ GB MicroSD Card (And a computer to flash [Raspbian](https://www.raspberrypi.org/downloads/raspbian/))
-  - [SenseHat](https://www.raspberrypi.org/products/sense-hat/) (Optional)
   
 The following peripherals you will only need temporarily, while setting up the Pi:
 
