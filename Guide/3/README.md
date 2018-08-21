@@ -27,8 +27,6 @@ vim iot-edge-virtual-kubelet-provider/src/Microsoft.Azure.VirtualKubelet.Edge.Pr
 If you are in vim, hit "i" or "insert" to edit the file. Scroll down until you find "targetCondition." 
 Change the value of targetCondition to "deviceID='&lt;device id>'"
 
-*Note: D
-
 Now hit escape, :, x, then enter, to save and exit the file.
 
 
