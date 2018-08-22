@@ -35,8 +35,19 @@ Then hit escape, :, x, enter.
 
 Another advntage of kubernetes is the ability to update and rollback deployments no downtime using the rolling-update feature. You can do this by first updating your deployment, then entering:
 
+### Updating
+
 ```sh 
 kubectl apply -f <file>
+```
+### Roll back
+
+Currently, I have not been succesfull in rolling back an update with virtual kubelet. I am unsure if this is my own error, or if virtual kubelet is bugged/does not (yet) support this feature. Likely, this is due to my own error. I will update when I find out an answer.
+
+For now, you can try by entering:
+
+```ssh
+kubectl rollout undo deployment <deployment>
 ```
 
 ## Updating Container Image
