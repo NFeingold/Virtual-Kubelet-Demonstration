@@ -1,5 +1,22 @@
 # Steps to Automate
-Download the above two .exe files. 
+In Azure command line:
+
+```sh
+vim aksHub.sh
+```
+Then copy paste the code from the sh file into the new file. This can be done by hitting 'i' then shift+insert. Then hit escape, :, x, enter. 
+
+Next, to run, type:
+
+```sh
+chmod +x aksHub.sh
+./aksHub.sh
+```
+To interupt the process at any time, just hit ctrl+c
+
+## If you prefer AutoHotKey over SH...
+
+First download both the .exe files
 
 Run both of the files by double clicking on them <br/>
 
