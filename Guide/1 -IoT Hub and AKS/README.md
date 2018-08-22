@@ -5,7 +5,7 @@ I suggest you work in the [Azure Portal](https://portal.azure.com) and follow al
 
 ### If you want to automate this process...
 
-I have also created an [AutoHotKey Script](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/tree/master/HotKeys) that will prompt you for variable names, then type everything for you.
+I have also created [AutoHotKey Scripts](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/tree/master/Guide/1%20-IoT%20Hub%20and%20AKS/Automation) that will prompt you for variable names, then type everything for you.
 
 I have also created a Shell Script, which I will soon publish as an alternative to the AutoHotKey script. It is currently untested.
 
