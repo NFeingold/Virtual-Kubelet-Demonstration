@@ -49,3 +49,7 @@ nfeingold@attunix.com, and I would be happy to review and add them.
 - [az aks Cheat Sheat](https://docs.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest)
     This is just a list of all the ```az aks``` commands and how to fully utilize them.
 
+## Other
+
+- Frustrated? Things not working? [This](https://www.youtube.com/watch?v=d-diB65scQU) may help
+    Don't forget to take frequent breaks, stand up, drink water, and stretch your hands!
