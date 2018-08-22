@@ -82,4 +82,9 @@ kubectl delete <resource; pod, deployment, etc.> <name>
 
 Now if you type ```kubectl get pods```, it should be clear of all the repeat pods.
 
+## Other errors?
+
+I encountered many *many* bugs and confusing user-end errors. Many of which are not on this page, either because they only happened once or twice, or I just forgot about them. 
+
+If you have any questions, comments, etc., don't hesitate to reach out to me at nfeingold@attunix.com. I am no professional, but I know enough to maybe help!
 
