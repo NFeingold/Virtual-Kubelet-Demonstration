@@ -17,7 +17,7 @@ I will be borrowing content from my other [Github Pages](https://github.com/NFei
 - Basics of Kubernetes
 - Basics of Raspberry Pi
 
-By the end, the hope is that you understand this diagram:
+By the end, the hope is that you understand this diagram: <br/>
 ![Iot-Edge-Connect](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/blob/master/media/iot-edge-connector.png)<br/>
 *image provided my [microsoft's azure github](https://github.com/Azure/iot-edge-virtual-kubelet-provider)*
 
