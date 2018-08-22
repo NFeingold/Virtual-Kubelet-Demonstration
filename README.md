@@ -17,6 +17,14 @@ I will be borrowing content from my other [Github Pages](https://github.com/NFei
 - Basics of Kubernetes
 - Basics of Raspberry Pi
 
+By the end, the hope is that you understand this diagram:
+![Iot-Edge-Connect](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/blob/master/media/iot-edge-connector.png)<br/>
+*image provided my [microsoft's azure github](https://github.com/Azure/iot-edge-virtual-kubelet-provider)*
+
+## Kubernetes? IoT Edge? What are those?
+
+If this is your first time hearing some of these words, or you just need a refresher, I recommend navigating to the useful links folder. One of the key links in there is the [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?fundamental=true). The best thing about everything you are about to learn is that there is *amazing* documentation for all of it. If a google search just isn't doing it for you, please refer to the links I have provided.
+
 ## Requirements
 
  [Azure Subscription](https://portal.azure.com) <br/>
