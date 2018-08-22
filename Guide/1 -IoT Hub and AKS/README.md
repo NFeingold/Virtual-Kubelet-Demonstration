@@ -9,6 +9,10 @@ I have also created [AutoHotKey Scripts](https://github.com/NFeingold/Virtual-Ku
 
 I have also created a Shell Script, which I will soon publish as an alternative to the AutoHotKey script. It is currently untested.
 
+### Cheat Sheet
+
+I have provided a cheat sheet .txt file if you want the commands but no explanation of what they do. I recomend this sheet only after you've done this example once or twice, as it makes the process a bit faster.
+
 ## Part 1: Creating an AKS Cluster and IoT Hub
 
 
