@@ -1,4 +1,4 @@
-# Welcome to Useful Links
+# Useful Links
 
 Not everything in here is just for beginners. Some of it is just interesting information related to the topics of Kubernetes or Iot Edge
 that I would reccomend reading. If you find other documents or new updates for links I have provided, please feel free to let me know at
@@ -6,7 +6,7 @@ nfeingold@attunix.com, and I would be happy to review and add them.
 
 ## Kubernetes
 
-- [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?fundamental=true)<br/>
+- [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?fundamental=true)
     This was one of the most influential websites for my beginning learning, as I was able to look up *every* confusing word, write them down, and have for reference.
 
 - [What is Kubernetes?](https://www.youtube.com/watch?v=IMOZCDhH7do) 
@@ -21,6 +21,9 @@ nfeingold@attunix.com, and I would be happy to review and add them.
     
 ## Virtual Kubelet    
     
+- [Virtual Kubelet Demonstration- Azure Fridays](https://www.youtube.com/watch?v=p-R2mV7Bxuk)
+    This video is what closely inspired this demonstration. The primary difference between the example in this video and this demonstration is that the video deploys to virtual machines rather than  Pi. **I highly recommend watching this video.**
+    
 - [Virtual Kubelet GitHub](https://github.com/virtual-kubelet/virtual-kubelet)
     You will find this link spattered throughout this demonstration, however I think it is important to look at and read (and look at their examples!).
     
@@ -34,6 +37,15 @@ nfeingold@attunix.com, and I would be happy to review and add them.
     
 - [Virtual Kubelet Google Drive](https://drive.google.com/drive/folders/19Ndu11WBCCBDowo9CrrGUHoIfd2L8Ueg) 
     This page is infrequently updated, but theres some interesting reads and meet ups are scheduled on there
+    
+## Azure/ IoT Hub/ IoT Edge
 
+- [What is Azure IoT Edge?](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge)
+    I think the title of the link says it all!
+    
+- [What is Azure IoT Hub?](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub)
+    Once again, the link title summarzies this pretty well.
 
+- [az aks Cheat Sheat](https://docs.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest)
+    This is just a list of all the ```az aks``` commands and how to fully utilize them.
 
