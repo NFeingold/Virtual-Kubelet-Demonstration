@@ -50,8 +50,8 @@ Give it a couple minutes, then check to see if the deployment was succesful. Thi
  - Open up Visual Studio Code, and sign into your account. 
  - Click on the 'Explorer Buton' (The one that looks like stacked papers in the top left)
  - On the bottom, there is a section that says 'AZURE IOT HUB DEVICES'
- - Hover of this bar, and left click and HOLD on the 3 dots on the far right
- - Click on Select IoT Hub. This should move you to the bar along the top
+  - Hover over this bar, and left click and HOLD on the 3 dots on the far right
+ - Click on 'Select IoT Hub'. This should move you to the bar along the top
  - Click on your subscription, then on your IoT Hub
  
  Your device should now appear in the bottom left. Right click on it and select  'Monitor D2C Messages' (D2C meaning Device to Cloud).
