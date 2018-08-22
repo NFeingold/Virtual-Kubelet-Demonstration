@@ -48,7 +48,7 @@ Give it a couple minutes, then check to see if the deployment was succesful. Thi
 ### Read the Telemetry Data from the Pi
 
  - Open up Visual Studio Code, and sign into your account. 
- - Click on the 'Explorer Buton' (The one that looks like stacked papers)
+ - Click on the 'Explorer Buton' (The one that looks like stacked papers in the top left)
  - On the bottom, there is a section that says 'AZURE IOT HUB DEVICES'
  - Hover of this bar, and left click and HOLD on the 3 dots on the far right
  - Click on Select IoT Hub. This should move you to the bar along the top
