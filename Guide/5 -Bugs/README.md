@@ -72,9 +72,13 @@ I very commonly forgot the command ```az aks get-credentials -n <aks cluster> -g
 I believe this has something to do with the CrashLoopBackOff. Sometimes you will enter ```kubectl get pods``` and it will return hundreds of pods. Or you can look at 'deployments' under the IoT Hub and see 20+ deployments, despite only pushing out one or two deployments. I would relate this back to some of the 'in development quarks' of Virtual Kubelet. Because the connector is contsantly crashing and booting, I *think* it sends out the deployment update every reboot. There are some ways around this, such as adjusting restart policies, though I don't think this is really worth the effort currently. It would likely result in more errors. For now, just try to get used to an overly cluttered deployment screen. If you are applying updates, remember to update the priority, so you don't get lost in the myriad of deployments that you are likely to ensue. 
 
 If you want to delete all the pods, you can do so by typing the following:
-```kubectl delete deployment tempsensor```
-or for a general use
-```kubectl delete <resource; pod, deployment, etc.> <name>```
+```ssh
+kubectl delete deployment tempsensor
+```
+or for a general use...
+```ssh
+kubectl delete <resource; pod, deployment, etc.> <name>
+```
 
 Now if you type ```kubectl get pods```, it should be clear of all the repeat pods.
 
