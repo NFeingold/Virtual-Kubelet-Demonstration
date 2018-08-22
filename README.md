@@ -27,7 +27,7 @@ If this is your first time hearing some of these words, or you just need a refre
 
 **Before doing this demonstration, watch [this video](https://www.youtube.com/watch?v=p-R2mV7Bxuk).** This demostration closely follows the video, which goes into detail and will answer *a lot* of the questions you are likely to have.
 
-The best thing about everything you are about to learn is that there is *amazing* documentation for all of it over the internet. If a google search just isn't doing it for you, please refer to the links I have provided.
+The best thing about everything you are about to learn is that there is *amazing* documentation for all of it. If a google search just isn't doing it for you, please refer to the links I have provided.
 
 ## Requirements
 
