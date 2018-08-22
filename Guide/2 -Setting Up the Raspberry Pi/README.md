@@ -18,6 +18,8 @@ Follow [this tutorial](https://blog.jongallant.com/2017/11/raspberrypi-setup/) o
 
 I will be following [this tutorial](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux-arm) on setting up the Pi with IoT Edge. Feel free to follow their tutorial instead of this section for more detail. 
 
+You will be entering this into the command line on the Raspberry Pi. You can copy paste the whole thing, as the comments will be ignored. Sometimes you may get an error that when you enter 'y' to install, it will abort. If this is the case, just run one line at a time.
+
 - Install the container runtime: 
 ```sh
 # Download and install the moby-engine
