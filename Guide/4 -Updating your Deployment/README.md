@@ -6,7 +6,7 @@ that Kubernetes provides us, such as scaling and adding/removing images.
 
 ## Scaling a Deployment
 
-One of the biggest advantages in Kubernetes is to only use what you need. When paying the resources by second of use, a lot of money can be saved. This is especially the case when dealing with workloads that have varying demands. The only time you have to pay for a lot of resources is when you need them. Once the heavy workload has concluded, you can then stop paying for them. 
+One of the biggest advantages in Kubernetes is to only use what you need. When paying for resources by second of use, a lot of money can be saved. This is especially the case when dealing with workloads that have varying demands. The only time you have to pay for a lot of resources is when you need them. Once the heavy workload has concluded, you can then stop paying for them. 
 
 There are two ways to do this:
 
