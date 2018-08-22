@@ -51,5 +51,5 @@ nfeingold@attunix.com, and I would be happy to review and add them.
 
 ## Other
 
-- Frustrated? Things not working? [This](https://www.youtube.com/watch?v=d-diB65scQU) may help
+- Frustrated? Things not working? [This may help](https://www.youtube.com/watch?v=d-diB65scQU)<br/>
     Don't forget to take frequent breaks, stand up, drink water, and stretch your hands!
