@@ -19,7 +19,7 @@ I will be borrowing content from my other [Github Pages](https://github.com/NFei
 
 By the end, the hope is that you understand this diagram, and can do what it is describing: <br/><br/>
 ![Iot-Edge-Connect](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/blob/master/media/iot-edge-connector.png)<br/>
-*image provided my [microsoft's azure github](https://github.com/Azure/iot-edge-virtual-kubelet-provider)*
+*image provided by [microsoft's azure github](https://github.com/Azure/iot-edge-virtual-kubelet-provider)*
 
 ## Kubernetes? IoT Edge? What are those?
 
