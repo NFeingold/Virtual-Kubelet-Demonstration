@@ -3,7 +3,7 @@
 read -p "Resource Group: " res
 read -p "IoT Hub Name: " hub
 read -p "AKS Cluster Name: " aks
-loc="eatus"
+loc="eastus"
 read -p "Node Count: " node
 
 
