@@ -1,6 +1,6 @@
 # Common Issues and Solutions
 
-Virtual Kubelet is **still in development** and is **not yet ready for full scale production.** There are a myriad of things that consistently break, and not all necesary features have been published. 
+Virtual Kubelet is **still in development** and is **not yet ready for full scale production.** There are a myriad of things that consistently break, and not all necesary features have been published. *(As of 8/22/2018)*
 
 That being said, I still recomend that we work towards understanding and developing for the virtual kubelet because updates to the [Virtual Kubelet github](https://github.com/virtual-kubelet/virtual-kubelet) are being put out almost daily. While the [IoT Edge Connector github](https://github.com/azure/iot-edge-virtual-kubelet-provider) is less frequently updated, nearly every update to the Virtual Kubelet project is a step towards improving the IoT Edge Connector as well.
 
