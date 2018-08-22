@@ -12,7 +12,7 @@ For me, this is error is the *most* frustrating, because generally it is out of 
 
 A crash loop back off is exactly what it says. The pod will boot, crash, boot, crash, so it 'backs off' and shuts down. This is an issue with the connector. The good news with this is that when a crash loop back off happens, it doesn't effect a deployment that has already been pushed out. Think of the virtual kubelet as a bridge going over a river. If your deployments are the cars, you can send these deployments over. If the bridge falls, the cars that have already made it over the bridge will remain there- just now no more will be able to be sent over until the bridge is repaired. You can see that in this diagram:
 
-![CrashLoopBackOff](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/blob/master/media/CrashLoopBackOff.jpg)
+![CrashLoopBackOff](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/blob/master/media/CrashLoopBackOff.jpg)<br/>
 *original image from [microsoft's azure github](https://github.com/azure/iot-edge-virtual-kubelet-provider), also viewable in the [media](github.com/nfeingold/media) folder*
 
 If the red dots are the new deployment, and the orange the old deployment, you can see that the new deployment is blocked from coming in, but the orange remains unharmed between the devices and cloud. 
