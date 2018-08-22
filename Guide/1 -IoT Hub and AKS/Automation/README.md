@@ -1,4 +1,7 @@
 # Steps to Automate
+
+## Using Shell Script
+
 In Azure command line:
 
 ```sh
