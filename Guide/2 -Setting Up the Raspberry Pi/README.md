@@ -51,7 +51,7 @@ Update the value of device_connection_string with the connection string from you
 (IoT Hub -> IoT Edge -> Device Details -> Connection String Primary Key)<br/>
 **Note: This is the __Device Connection String,__ NOT the IoT Hub Connection String**
 
-To exit, press Ctrl+X, Y, Enter
+To exit, press Ctrl+x, y, Enter
 
 - Restart the Daemon
 ```sh
