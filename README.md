@@ -23,7 +23,11 @@ By the end, the hope is that you understand this diagram: <br/><br/>
 
 ## Kubernetes? IoT Edge? What are those?
 
-If this is your first time hearing some of these words, or you just need a refresher, I recommend navigating to the useful links folder. One of the key links in there is the [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?fundamental=true), which I recomend having open alongside this guide. The best thing about everything you are about to learn is that there is *amazing* documentation for all of it over the internet. If a google search just isn't doing it for you, please refer to the links I have provided.
+If this is your first time hearing some of these words, or you just need a refresher, I recommend navigating to the useful links folder. One of the key links in there is the [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?fundamental=true), which I recomend having open alongside this guide.
+
+**Before doing this demonstration, watch [this video](https://www.youtube.com/watch?v=p-R2mV7Bxuk).** This demostration closely follows the video, which goes into detail and will answer *a lot* of the questions you are likely to have.
+
+The best thing about everything you are about to learn is that there is *amazing* documentation for all of it over the internet. If a google search just isn't doing it for you, please refer to the links I have provided.
 
 ## Requirements
 
