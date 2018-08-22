@@ -2,11 +2,20 @@
 
 A follow-along demonstration of using Virtual Kubelet for IoT Edge Deployments
 
-We will be sending out a simulated temperature sensor deployment onto a raspberry pi
+## What you will be doing
+
+We will be sending out a simulated temperature sensor deployment onto a raspberry pi from the Azure IoT Hub
 
 This is a semi-comprehensive, beginner-level set up of Virtual Kubelet for Edge Deployments.
 I will be borrowing content from my other [Github Pages](https://github.com/NFeingold), and referencing many outside documents that I will source.
 
+## What you will be learning
+
+- Virtual Kubelet for IoT Edge
+- Basics of Azure 
+- Basics of IoT Hub/IoT Edge
+- Basics of Kubernetes
+- Basics of Raspberry Pi
 
 ## Requirements
 
