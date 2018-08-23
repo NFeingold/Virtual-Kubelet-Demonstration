@@ -39,5 +39,7 @@ helm install -n hub0 --set rbac.install=true .
 kubectl get nodes
 kubectl get pods
 
+echo "-----------------------------------------------------------"
+echo " "
 echo "If you recieved a warning Could Not Find Ready Tiller, wait a little and manually enter:"
 echo " helm install -n hub0 --set rbac.install=true ."
