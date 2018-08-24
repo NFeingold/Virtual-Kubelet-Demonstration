@@ -17,6 +17,8 @@ chmod +x aksHub.sh
 ```
 To interupt the process at any time, just hit ctrl+c
 
+**Warning:** I have more frequently recieved CrashLoopBackOff errors when using this automation. I assume this is similar to the reason I frequently wouldn't have success when building the IoT Hub through the command line. Either this or timing is wrong somehow... I would recommend deleting the line ```az iot hub create < >``` and creating the IoT Hub through the Azure Interface
+
 ## If you prefer AutoHotKey over SH...
 
 First download both the .exe files
