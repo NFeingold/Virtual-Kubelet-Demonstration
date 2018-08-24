@@ -30,7 +30,7 @@ nfeingold@attunix.com, and I would be happy to review and add them.
 - [Virtual Kubelet IoT Edge Connector GitHub](https://github.com/azure/iot-edge-virtual-kubelet-provider)
     Similar to the previous link, you will also find this throughout this demonstration. This is the primary source that will be used in this demonstration, and all credit really goes to this team and the teams that they borrowed from that made the afformentioned Virtual Kubelet.
     
-- [Virtual Kubelet](https://erikstmartin.com/post/virtual-kubelet/) This is an *amazing* article I highly recommend reading if you want to have a deeper understanding of what virtual kubelet is/how it works. It is begginner friendly but dives into good detail for those that are more curious.
+- [Virtual Kubelet](https://erikstmartin.com/post/virtual-kubelet/) This is an article I highly recommend reading if you want to have a deeper understanding of what virtual kubelet is/how it works. It is begginner friendly but dives into good detail for those that are more curious.
     
 - [Kubernetes for Edge Computing](https://thenewstack.io/kubernetes-for-edge-computing-the-microsoft-azure-approach/) 
     While this link doesn't really teach much, it is an interesting read that explains a lot of the benefits and basics of the virtual kubelet.
