@@ -7,7 +7,7 @@ I suggest you work in the [Azure Portal](https://portal.azure.com) and follow al
 
 I have also created [AutoHotKey Scripts](https://github.com/NFeingold/Virtual-Kubelet-Demonstration/tree/master/Guide/1%20-IoT%20Hub%20and%20AKS/Automation) that will prompt you for variable names, then type everything for you.
 
-I have also created a Shell Script, which I will soon publish as an alternative to the AutoHotKey script. It is currently untested.
+I have also created a Shell Script, which I will soon publish as an alternative to the AutoHotKey script. It is currently working, but frequently giving CrashLoopBackOff errors. Working to see why this is.
 
 ### Cheat Sheet
 
