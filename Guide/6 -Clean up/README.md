@@ -19,8 +19,27 @@ rm -rf <file>
 
 ## Raspberry Pi
 
-Just as easisly done, in the Pi Terminal, enter:
+Just as easisly done, in the Pi Terminal:
 
+### Remove IoT Edge Provider
 ```sh
 sudo apt-get --purge remove iotedge
+```
+
+Courtesy of [The Humble Developer](http://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images),
+
+
+### Stop all running containers
+```sh
+docker stop $(docker ps -aq)
+```
+
+### Remove all containers
+```sh
+docker rm $(docker ps -aq)
+```
+
+### Remove all images
+```sh
+docker rmi $(docker images -q)
 ```
